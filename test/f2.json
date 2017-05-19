@@ -1,0 +1,204 @@
+{
+  "_id": "00003432-188b-4720-9373-0683351f512f",
+  "_rev": "1-a14df588da5aaeaa318e8337042b61e0",
+  "build_id": "cba8c1d3c139123f51526e178cbe904a",
+  "doc_type": "form",
+  "archived": false,
+  "resource_uri": "",
+  "old_nested": {"a":1, "b":[1,2,3]},
+  "attachments": {
+    "form.xml": {
+      "length": 5499,
+      "content_type": "text/xml"
+    }
+  },
+  "form-stuff": {
+    "@uiVersion": "1",
+    "@xmlns": "butt-schema",
+    "case_patient": {
+      "case": {
+        "@xmlns": "http://commcarehq.org/case/transaction/v2",
+        "@date_modified": "2016-07-28T10:58:36.329000",
+        "@user_id": "3da2c0495fe362c46721aa740d82a544",
+        "@case_id": "caa6695c-c9fc-453f-9b5e-b06a7e022472",
+        "update": {
+          "callback_date": "2016-09-28",
+          "last_visit": "2016-06-27",
+          "reported_vaccines": "{\"Pneumo_conj\":[\"2016-05-26\"],\"DTwPHibHep\":[\"2016-05-26\",\"2017-05-26\",\"2018-05-26\"],\"OPV\":[\"2016-04-18\",\"2016-05-26\"],\"BCG\":[\"2016-04-18\"]}",
+          "clinic_visits": "[\"3da2c0495fe362c46721aa740d82a544\"]",
+          "recorded_vaccines": "{\"Pneumo_conj\":[\"2016-06-27\",\"2016-07-28\"],\"DTwPHibHep\":[\"2016-06-27\",\"2016-07-28\"],\"OPV\":[\"2016-06-27\",\"2016-07-28\"],\"IPV\":[\"2016-07-28\"]}",
+          "callback_status": "true"
+        }
+      }
+    },
+    "@name": "QR Code",
+    "qr_scan": "211f27c0-0850-4fdb-be24-f925fc3adf99",
+    "local": {
+      "patient_id": "caa6695c-c9fc-453f-9b5e-b06a7e022472",
+      "doses_received": "4",
+      "is_new_patient": "false",
+      "finished_session": "true"
+    },
+    "qr_patient_id": "caa6695c-c9fc-453f-9b5e-b06a7e022472",
+    "launch_vaxtrac": "complete",
+    "#type": "data",
+    "patient_id": "OK",
+    "case_dose_2": {
+      "case": {
+        "@xmlns": "http://commcarehq.org/case/transaction/v2",
+        "@date_modified": "2016-07-28T10:58:36.329000",
+        "create": {
+          "case_type": "dose",
+          "owner_id": "d3e96a0273d1d3a76c858d43ad8dfc27",
+          "case_name": "7d6b9604-fcf6-4dcd-b765-04ab3e69b7cd"
+        },
+        "@user_id": "3da2c0495fe362c46721aa740d82a544",
+        "update": {
+          "lot_number": "",
+          "patient_age": "106",
+          "timestamp": "2016-07-28T10:55:39",
+          "expiration_date": "",
+          "batch_number": "",
+          "clinic_id": "3da2c0495fe362c46721aa740d82a544",
+          "patient_id": "caa6695c-c9fc-453f-9b5e-b06a7e022472",
+          "vaccine_name": "DTwPHibHep",
+          "series": "2",
+          "manufacture_date": ""
+        },
+        "close": "",
+        "@case_id": "dddc1bc4-1857-4730-94e7-5ed4ca135df3"
+      }
+    },
+    "case_dose_3": {
+      "case": {
+        "@xmlns": "http://commcarehq.org/case/transaction/v2",
+        "@date_modified": "2016-07-28T10:58:36.329000",
+        "create": {
+          "case_type": "dose",
+          "owner_id": "d3e96a0273d1d3a76c858d43ad8dfc27",
+          "case_name": "cfaf95e3-f02c-45ad-a95f-c2173ee0ee6a"
+        },
+        "@user_id": "3da2c0495fe362c46721aa740d82a544",
+        "update": {
+          "lot_number": "",
+          "patient_age": "106",
+          "timestamp": "2016-07-28T10:55:39",
+          "expiration_date": "a_new_start",
+          "batch_number": "",
+          "clinic_id": "3da2c0495fe362c46721aa740d82a544",
+          "patient_id": "caa6695c-c9fc-453f-9b5e-b06a7e022472",
+          "vaccine_name": "OPV",
+          "series": "3",
+          "manufacture_date": ""
+        },
+        "close": "",
+        "@case_id": "26094e59-f455-48dd-a118-d4a17d204246"
+      }
+    },
+    "case_dose_0": {
+      "case": {
+        "@xmlns": "http://commcarehq.org/case/transaction/v2",
+        "@date_modified": "2016-07-28T10:58:36.329000",
+        "create": {
+          "case_type": "dose",
+          "owner_id": "d3e96a0273d1d3a76c858d43ad8dfc27",
+          "case_name": "533b09d7-e98c-4775-9464-351474f0eb4a"
+        },
+        "@user_id": "3da2c0495fe362c46721aa740d82a544",
+        "update": {
+          "lot_number": "",
+          "patient_age": "106",
+          "timestamp": "2016-07-28T10:55:39",
+          "expiration_date": "",
+          "batch_number": "",
+          "clinic_id": "3da2c0495fe362c46721aa740d82a544",
+          "patient_id": "caa6695c-c9fc-453f-9b5e-b06a7e022472",
+          "vaccine_name": "Pneumo_conj",
+          "series": "2",
+          "manufacture_date": ""
+        },
+        "close": "",
+        "@case_id": "b2d109e6-c693-48d8-b5f6-32cb2a79d053"
+      }
+    },
+    "case_dose_1": {
+      "case": {
+        "@xmlns": "http://commcarehq.org/case/transaction/v2",
+        "@date_modified": "2016-07-28T10:58:36.329000",
+        "create": {
+          "case_type": "dose",
+          "owner_id": "d3e96a0273d1d3a76c858d43ad8dfc27",
+          "case_name": "b80e70f5-30f3-4542-9c95-05c3f4c7e76e"
+        },
+        "@user_id": "3da2c0495fe362c46721aa740d82a544",
+        "update": {
+          "lot_number": "",
+          "patient_age": "106",
+          "timestamp": "2016-07-28T10:55:39",
+          "expiration_date": "",
+          "batch_number": "",
+          "clinic_id": "3da2c0495fe362c46721aa740d82a544",
+          "patient_id": "caa6695c-c9fc-453f-9b5e-b06a7e022472",
+          "vaccine_name": "IPV",
+          "series": "0",
+          "manufacture_date": ""
+        },
+        "close": "",
+        "@case_id": "4ac0c457-ebb8-4eb4-ba7e-7683b320616d"
+      }
+    },
+    "meta": {
+      "@xmlns": "http://openrosa.org/jr/xforms",
+      "username": "agbokou",
+      "instanceID": "00003432-188b-4720-9373-0683351f512f",
+      "userID": "3da2c0495fe362c46721aa740d82a544",
+      "timeEnd": "2016-07-28T10:58:36.329000",
+      "appVersion": {
+        "@xmlns": "http://commcarehq.org/xforms",
+        "#text": "CommCare ODK, version \"2.21.2\"(361396). App v501. CommCare Version 2.21. Build 361396, built on: July-03-2015"
+      },
+      "timeStart": "2016-07-28T10:52:22.192000",
+      "location": {
+        "@xmlns": "http://commcarehq.org/xforms",
+        "#text": "6.470026478137341 2.651261349139334 10.84 4.0"
+      },
+      "deviceID": "355263060144420"
+    },
+    "common": {
+      "owner_id": "d3e96a0273d1d3a76c858d43ad8dfc27",
+      "user_id": "3da2c0495fe362c46721aa740d82a544",
+      "date_modified": "2016-07-28T10:58:36.329000"
+    },
+    "@version": "480",
+    "qr_patient_name": "Ossè andil"
+  },
+  "initial_processing_complete": false,
+  "version": "480",
+  "received_on": "2016-07-28T09:58:46.034281",
+  "new_prop":"buttws",
+  "app_id": "038905b28915f2cf890da6ace5eeaf93",
+  "is_phone_submission": "1.0",
+  "uiversion": "1",
+  "domain": "vaxtrac-android",
+  "problem": null,
+  "metadata": {
+    "username": "agbokou",
+    "doc_type": "Metadata",
+    "deprecatedID": null,
+    "userID": "3da2c0495fe362c46721aa740d82a544",
+    "appVersion": "CommCare ODK, version \"2.21.2\"(361396). App v501. CommCare Version 2.21. Build 361396, built on: July-03-2015",
+    "timeEnd": "2016-07-28T10:58:36.329000",
+    "timeStart": "2016-07-28T10:52:22.192000",
+    "instanceID": "00003432-188b-4720-9373-0683351f512f",
+    "location": [
+      "6.470026478137341",
+      "2.651261349139334",
+      "10.84",
+      "4.0"
+    ],
+    "deviceID": "355263060144420"
+  },
+  "type": "data",
+  "id": "00003432-188b-4720-9373-0683351f512f",
+  "md5": "OBSOLETED"
+}
